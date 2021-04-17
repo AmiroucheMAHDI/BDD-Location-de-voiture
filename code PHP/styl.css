@@ -1,0 +1,163 @@
+/* CSS EXTERNE*/  
+
+html, body {
+ margin:0px;
+ padding:0px;
+ }
+
+/***********
+HAUT DE PAGE
+***********/
+#menu2 nav{
+	position: absolute;
+	top:30%;
+	left: 2%;
+	height: 50%;
+	width: 18%;
+	position:fixed;
+
+}
+#menu2 ul {
+	list-style: none;
+}
+nav{
+	width:850px;
+	margin-left:auto;
+	margin-right:auto;
+	
+	min-height:85px;
+	padding:20px 40px 10px 40px;
+	border-bottom:2px solid #BDBDBD;
+	overflow:hidden;
+}
+
+nav ul{
+	display:block;
+	font-family:Arial;
+	margin-left:auto;
+	margin-right:auto;
+	list-style-type: none;
+
+}
+
+nav li{
+	display:inline;
+	margin-right:10px;
+	float:left;
+	color:#D8D8D8;
+	font-size:13pt;
+}
+
+nav a{
+	text-decoration:none;
+	text-align:center;
+	display:block;
+	height:23px;
+	padding:5px 20px 2px 20px;
+	color:#fff;
+    background-color: #424242;
+}
+
+nav a:hover {
+    background-color: #000;
+}
+
+.lien_normal {
+	color:#848484;
+	padding:0px;
+	height:auto;display:inline;
+}
+
+
+header{
+         font-family:Arial;
+      }
+#ex1{
+	text-align: center;
+	}
+article{
+	text-align: center;
+	background-color:white;
+}
+h1{
+	font-size:18pt;
+	margin-top:10px;
+	text-align:center;
+}
+h2{
+	text-align:center;
+	padding:10px;
+	font-size:16pt;
+	color:#fff;	
+	background-color:#61718C;
+}
+
+
+h3{
+	font-size:16pt;
+	color:#fff;
+	background-color:#0000FF;
+}
+
+
+
+table{
+  border-width:1px;
+  border-style:dotted;
+	margin-left:auto;
+	margin-right:auto;
+}
+th,td{
+   padding:10px;
+	border:1px solid black;
+	text-align:center;
+	
+}
+ul{
+list-style-type:none;
+}
+footer{
+         margin-top:350px;
+         float:bottom;
+         }
+
+
+
+
+
+/***********
+MILIEU DE PAGE
+***********/
+body{
+	padding-left:100px;
+	padding-right:100px;
+	font-family:Arial;
+	
+	}
+section{
+ 	background-color:#F2F2F2;
+	
+}
+
+
+
+
+/***********
+BAS DE PAGE
+***********/
+#footer{
+	color:white;
+	max-width:930px;
+	margin:auto;
+	font-family:Arial;
+	font-size:11pt;
+	text-align:center;
+	padding:15px;
+	height:40px;
+	border-top:2px solid #BDBDBD;
+}	
+	
+
+/***********
+MISE EN FORME
+***********/ 
